@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 10rem;
+  background-color: rgb(215, 228, 34);
+  width: 21rem;
+  height: 18rem;
+  padding: 1.6rem;
+  border-radius: 5px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App input {
+  width: 20rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  border: none;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+.App button {
+  width: 100%;
+  background-color: darkgreen;
+  cursor: pointer;
+  color: aliceblue;
+  margin-top: 0.6rem;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+.App span {
+  display: flex;
+
+  margin-left: 5px;
+  text-align: left;
+
+  color: red;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.succes {
+  background-color: rgb(25, 67, 158);
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  margin-top: 1rem;
+  font-weight: 700;
+  color: gold;
+}
